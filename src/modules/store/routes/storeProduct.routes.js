@@ -1,6 +1,6 @@
 import express from "express";
 import { validate } from "../../../core/middleware/validate.js";
-import { storeProductSchema } from "../validators/store/storeProduct.validator.js";
+import { storeProductSchema } from "../validators/store/store.validator.js";
 import { createProduct, getProducts, getProduct, updateProduct, deleteProduct } from "../controllers/storeProduct.controller.js";
 
 const router = express.Router();

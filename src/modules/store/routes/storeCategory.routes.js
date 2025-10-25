@@ -1,6 +1,6 @@
 import express from "express";
 import { validate } from "../../../core/middleware/validate.js";
-import { storeCategorySchema } from "../validators/store/storeCategory.validator.js";
+import { storeCategorySchema } from "../validators/store/store.validator.js";
 import { createCategory, getCategories, getCategory, updateCategory, deleteCategory } from "../controllers/storeCategory.controller.js";
 
 const router = express.Router();

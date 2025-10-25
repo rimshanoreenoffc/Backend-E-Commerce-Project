@@ -1,6 +1,6 @@
 import express from "express";
 import { validate } from "../../../core/middleware/validate.js";
-import { storeFeedbackSchema } from "../validators/store/storeFeedback.validator.js";
+import { storeFeedbackSchema } from "../validators/store/store.validator.js";
 import { createFeedback, getFeedbacks } from "../controllers/storeFeedback.controller.js";
 
 const router = express.Router();
