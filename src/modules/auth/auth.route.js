@@ -3,7 +3,7 @@ import Router from "express"
 import { validate } from "../../core/middleware/validate.js"
 import { loginSchema, registerSchema, resetPasswordSchema } from "../../shared/validators/auth.validators.js"
 import { forgotPasswordMail, getAccessToken, logInUser, logoutUser, registerUser, resetPassword, verifyUserMail } from "./auth.controller.js"
-import { isLoggedIn } from "../../core/middleware/isLoggedIn.js"
+import { isLoggedIn } from "../../core/middleware/isLoggedin.js"
 
 const authRouter = Router()
 
